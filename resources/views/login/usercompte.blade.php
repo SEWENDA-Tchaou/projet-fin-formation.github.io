@@ -9,10 +9,80 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('./assets/css/connexion.css') }}">
-    <title>index</title>
+    <link rel="stylesheet" href="{{ asset('./assets/css/main.css') }}">
+    <title>usercompte</title>
   </head>
   <body>
-  <h1 class="m-5"></h1>
+  
+  <!-- header -->
+  <div class="header">
+    <!-- header-black -->
+    <div class="header-black">
+        <a href="" class="mail-link">
+            <img src="./assets/images/nouvelle-enveloppe-de-courrier-electronique.png" class="enveloppe "
+                alt="enveloppe electronique">
+        </a>
+        <img src="./assets/images/whatsapp.png" class="enveloppe" alt="whatsapp">
+        <div class="">
+            <p class="header-black-contact">Contactez nous</p>
+        </div>
+
+    </div>
+    <!-- end header-black -->
+
+    <!-- navbar -->
+
+    <div class="header-nav">
+        <div class="logo-background d-flex  ">
+            <img src="./assets/images/logo.png" class="logo mt-1" alt="whatsapp">
+            <span style="color: #00CCFF;" class="fs-5 mt-1">KNOWLEDGE</span> <span
+                style="color: #7CF4E7; margin-left: 3%;" class="fs-5 mt-1">TECHNOLOGY</span>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light p-5" href="{{ route('home') }}">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light p-5" href="{{ route('formation') }}">Formation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light p-5" href="{{ route('inscription') }}">Inscrivez-vous</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  active text-light p-5" href="{{ route('contact') }}">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="block-image-accueil">
+            <img src="/assets/images/2-blackstudent.jpeg" class="imag-invisible img-fluid" alt="Etudiants">
+            <div class="text-accueil">
+                <div class="text">
+                    <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
+                    <p class="text-light text-center">CENTRE DE FORMATION QUI REPOND</p>
+
+                    <p class="text-light text-center"> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!--end navbar -->
+
+</div>
+<!-- end-header -->
+
+
+  <!--  -->
    <div class="image-form m-0">
    
         <div class="color">

@@ -6,10 +6,6 @@ button a {
     justify-content: space-between !important;
 }
 
-.container {
-    
-}
-
 .form-control {
     border-radius: 15px;
 }
@@ -29,9 +25,8 @@ input {
 
 .color {
     background-color: #50545F;
-    margin: 0% 30%;
+    margin: 0 30%;
     border-radius: 15px;
-    z-index: 99999;
 
 }
 
@@ -43,14 +38,12 @@ input {
 color: blue;
 }
 
-body {
-    background-image: url("./Group\ 14.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+form {
+   margin: 20% 0;
    
 }
 
-.image-form {
+body{
     background-color: rgba(127, 255, 212, 0.219);
-    height: 100vh;
+    height: 100px;
 }

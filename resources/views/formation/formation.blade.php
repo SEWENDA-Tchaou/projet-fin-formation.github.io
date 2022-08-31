@@ -52,7 +52,7 @@
                           <a class="nav-link active text-light p-5" href="{{ route('formation') }}">Formation</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link active text-light p-5" href="{{ route('inscription') }}">Inscrivez-vous</a>
+                          <a class="nav-link active text-light p-5" href="{{ route('usercompte') }}">Inscrivez-vous</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link  active text-light p-5" href="{{ route('contact') }}">Contact</a>
