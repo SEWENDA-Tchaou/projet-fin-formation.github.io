@@ -34,11 +34,15 @@ Route::get('/contact', function () {
     return view('contact.contact');
 })->name("contact");
 
+// authentification file route
+Route::get('/login', function () {
+    return view('login.usercompte');
+})->name("usercompte");
 
-// conatct file route
-Route::get('/authentification', function () {
-    return view('authentification.connexion');
-});
+// authentification file route
+Route::get('/connexion', function () {
+    return view('connexion.connexion');
+})->name("connexion");
 
 
 
